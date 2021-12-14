@@ -22,8 +22,8 @@
             <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
         <WrapPanel>
-            <Button Click="Button_Click">增加</Button>
-            <Button Click="Button_Click_1">清空</Button>
+            <Button Click="Button_Click" Content="增加"></Button>
+            <Button Click="Button_Click_1" Content="清空"></Button>
         </WrapPanel>
         <ListBox Grid.Row="1" FontSize="20" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Name="listbox" Margin="15" BorderBrush="MediumPurple" BorderThickness="5">
             <ListBox.ItemsPanel>
